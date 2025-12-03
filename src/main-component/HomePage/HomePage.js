@@ -26,7 +26,7 @@ const HomePage = () => {
       <PricingSection pClass={"pricing-section section-padding"} />
       <Testimonial tClass={"testimonial-section section-padding"} />
       <CtaSection hclass={"cta-section"} />
-      <BlogSection tClass={"blog-section section-padding"} />
+      {/* <BlogSection tClass={"blog-section section-padding"} /> */}
       <Footer />
       <Scrollbar />
     </Fragment>

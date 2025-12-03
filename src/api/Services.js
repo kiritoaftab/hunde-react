@@ -49,7 +49,7 @@ const Services = [
   },
   {
     id: 5,
-    icon: icon2,
+    icon: icon1,
     simage: simg2,
     title: "Visiting Sessions",
     description:
@@ -67,7 +67,7 @@ const Services = [
   },
   {
     id: 7,
-    icon: icon2,
+    icon: icon3,
     simage: simg2,
     title: "Pack Walks",
     description:
@@ -76,7 +76,7 @@ const Services = [
   },
   {
     id: 8,
-    icon: icon2,
+    icon: icon4,
     simage: simg2,
     title: "Shadow / Mentorship Programs",
     description:
