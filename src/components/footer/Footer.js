@@ -101,7 +101,7 @@ const Footer = (props) => {
             <div className="col col-lg-6 col-12">
               <p className="copyright">
                 {" "}
-                Copyright &copy; 2025 Petlox. All Rights Reserved.
+                Copyright &copy; 2025 KiritoAftab. All Rights Reserved.
               </p>
             </div>
             <div className="col col-lg-6 col-12">

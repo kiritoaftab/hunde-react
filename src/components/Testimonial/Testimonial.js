@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Img1 from "../../images/client-1.jpg";
 import Img2 from "../../images/client-2.jpg";
 import Img3 from "../../images/client-1.jpg";
-import Image from "../../images/funfact/testimonial.png";
+import Image from "../../images/funfact/testimonial-trial.jpeg";
 import ImagePaws from "../../images/paws-7.png";
 import ImagePaws2 from "../../images/paws-6.png";
 import icon3 from "../../images/testimonial-icon.svg";
@@ -52,7 +52,7 @@ const Testimonial = (props) => {
           <div className="col-lg-6 col-12">
             <div className="section-title">
               <h3>Testimonials</h3>
-              <h2>What Pet lover Says About Us </h2>
+              <h2>What Pet lovers Say About Us </h2>
             </div>
           </div>
         </div>

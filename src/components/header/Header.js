@@ -45,10 +45,10 @@ const Header = (props) => {
                   </button>
                   <ul className="nav navbar-nav mb-2 mb-lg-0">
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="#">
+                      <Link onClick={ClickHandler} to="/home">
                         Home
                       </Link>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li>
                           <Link onClick={ClickHandler} to="/home">
                             Home style 1
@@ -59,9 +59,14 @@ const Header = (props) => {
                             Home style 2
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="menu-item-has-children">
+                      <Link onClick={ClickHandler} to="/about">
+                        About
+                      </Link>
+                    </li>
+                    {/* <li className="menu-item-has-children">
                       <Link onClick={ClickHandler} to="#">
                         Page
                       </Link>
@@ -87,23 +92,74 @@ const Header = (props) => {
                           </Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="#">
+                      <Link onClick={ClickHandler} to="/service">
                         Services
                       </Link>
                       <ul className="sub-menu">
                         <li>
-                          <Link onClick={ClickHandler} to="/service">
-                            Services
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/board-and-train"
+                          >
+                            Board & Train
                           </Link>
                         </li>
                         <li>
                           <Link
                             onClick={ClickHandler}
-                            to="/service-single/Pet-Walking"
+                            to="/service-single/day-training"
                           >
-                            Service Single
+                            Day Training
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/puppy-jumpstart"
+                          >
+                            Puppy Jumpstart
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/virtual-sessions"
+                          >
+                            Virtual Sessions
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/visiting-sessions"
+                          >
+                            Visiting Sessions
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/neutrality-sessions"
+                          >
+                            Neutrality Sessions
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/pack-walks"
+                          >
+                            Pack Walks
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            onClick={ClickHandler}
+                            to="/service-single/shadow-mentorship"
+                          >
+                            Shadow/ Mentorship Programs
                           </Link>
                         </li>
                       </ul>

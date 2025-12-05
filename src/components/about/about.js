@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import VideoModal from "../ModalVideo/VideoModal";
 import VideoModalS2 from "../ModalVideoS2/VideoModalS2";
 
-import image from "../../images/about/about-dog.png";
+import image from "../../images/about/about-image.jpeg";
 import icon from "../../images/ab-icon.png";
 import paws1 from "../..//images/paws-6.png";
 import paws2 from "../..//images/paws-7.png";

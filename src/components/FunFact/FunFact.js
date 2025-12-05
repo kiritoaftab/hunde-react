@@ -7,7 +7,7 @@ import icon2 from "../../images/funfact/2.svg";
 import icon3 from "../../images/funfact/3.svg";
 import icon4 from "../../images/funfact/4.svg";
 
-import ImageBg from "../../images/funfact/top-image-new.jpg";
+import ImageBg from "../../images/funfact/funfact-2.png";
 
 const FunFact = (props) => {
   return (
