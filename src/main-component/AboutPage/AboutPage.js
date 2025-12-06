@@ -7,6 +7,8 @@ import PricingSection from "../../components/PricingSection/PricingSection";
 import Footer from "../../components/footer/Footer";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Logo from "../../images/hundecoach-logo.png";
+import PartnerSection from "../../components/PartnerSection/PartnerSection";
+import GallerySection from "../../components/gallery/GallerySection";
 
 const AboutPage = () => {
   return (
@@ -16,6 +18,7 @@ const AboutPage = () => {
       <About hclass={"about-section section-padding"} />
       <FunFact hclass={"funfact-section"} />
       <PricingSection pClass={"pricing-section section-padding"} />
+      <GallerySection />
       <Footer />
       <Scrollbar />
     </Fragment>

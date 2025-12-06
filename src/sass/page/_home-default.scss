@@ -1827,3 +1827,45 @@
     }
   }
 }
+
+.gallery-section {
+  padding: 60px 0;
+  background-color: #fafafa;
+
+  .gallery-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .gallery-title {
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 40px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+
+      .gallery-item {
+        overflow: hidden;
+        border-radius: 12px;
+        position: relative;
+
+        .gallery-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.08);
+          }
+        }
+      }
+    }
+  }
+}
