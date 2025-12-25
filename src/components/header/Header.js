@@ -170,7 +170,7 @@ const Header = (props) => {
                       </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link onClick={ClickHandler} to="/certifications">
+                      <Link onClick={ClickHandler} to="/certification">
                         Certifications
                       </Link>
                     </li>
