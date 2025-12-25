@@ -106,7 +106,7 @@ const ServiceSidebar = (props) => {
 
           <Link
             onClick={ClickHandler}
-            to="/services"
+            to="/service"
             className="theme-btn-s2 sidebar-btn"
           >
             View All Programs
